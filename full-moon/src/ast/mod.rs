@@ -12,7 +12,7 @@ use lua52::*;
 use lua54::*;
 #[cfg(feature = "luau")]
 use luau::*;
-pub use parser_structs::AstResult;
+pub use parser_structs::{AstResult, ParserState};
 use punctuated::{Pair, Punctuated};
 use span::ContainedSpan;
 pub use versions::*;
